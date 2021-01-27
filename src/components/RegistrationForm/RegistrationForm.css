@@ -1,0 +1,28 @@
+.signupForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.regField {
+  margin: 10px 0px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit {
+  margin: auto;
+  margin-top: 15px;
+  width: 70px;
+}
+
+.loginLink {
+  margin: 20px 0px;
+  color: red;
+}
+
+.loginLink:hover {
+  color: rgb(100, 0, 0);
+}

@@ -1,0 +1,37 @@
+.headLink {
+  margin: auto;
+  color: black;
+  text-decoration: none;
+  padding: 7px 25px;
+  font-family: serif;
+  font-size: 35px;
+  border-radius: 15px;
+  letter-spacing: 6px;
+}
+
+hr {
+  margin: 10px;
+}
+
+.headLink:hover {
+  color: rgb(163, 0, 0);
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.navLink {
+  margin: 30px;
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navLink:hover {
+  background-color: rgba(0, 0, 0, 0.438);
+}
