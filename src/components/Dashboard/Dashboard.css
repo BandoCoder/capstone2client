@@ -1,0 +1,42 @@
+.langText {
+  font-size: 30px;
+}
+
+.total {
+  font-size: 20px;
+}
+
+.wordBox {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  margin-left: -30px;
+}
+
+ul {
+  list-style: none;
+}
+
+.wordHead {
+  margin-top: 0px;
+}
+
+.word {
+  margin-bottom: 0px;
+}
+
+.wordInfo {
+  margin: 0px;
+}
+
+.dashHead {
+  background: url("./romanarch.jpg");
+  background-size: 100%;
+  padding: 5px;
+  margin: 5px 10px;
+}
+
+.startLink {
+  text-decoration: none;
+  color: black;
+}

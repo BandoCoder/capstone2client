@@ -6,7 +6,7 @@
   font-family: serif;
   font-size: 35px;
   border-radius: 15px;
-  letter-spacing: 6px;
+  letter-spacing: 1px;
 }
 
 hr {
@@ -24,14 +24,21 @@ hr {
 }
 
 .navLink {
-  margin: 30px;
   text-decoration: none;
   color: whitesmoke;
-  background-color: black;
+  background-color: rgba(20, 20, 20, 0.719);
   padding: 10px;
   border-radius: 5px;
 }
 
 .navLink:hover {
   background-color: rgba(0, 0, 0, 0.438);
+}
+
+.userSpan {
+  margin-right: 60px;
+  color: whitesmoke;
+  background-color: rgba(20, 20, 20, 0.719);
+  padding: 10px;
+  border-radius: 5px;
 }

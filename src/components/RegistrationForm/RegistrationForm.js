@@ -42,32 +42,43 @@ class RegistrationForm extends Component {
     return (
       <form className="signupForm" onSubmit={this.handleSubmit}>
         <div role="alert">{error && <p>{error}</p>}</div>
-        <div>
+        <div className="enterName">
+          <Label htmlFor="registration-name-input">
+            Enter your name
+            <Required />
+          </Label>
           <Input
             className="regField"
             ref={this.firstInput}
             id="registration-name-input"
             name="name"
-            placeholder="Enter Name"
+            placeholder="e.g. Bradford"
             required
           />
         </div>
-        <div>
+        <div className="enterUsername">
+          <Label htmlFor="registration-username-input">
+            Choose a username
+            <Required />
+          </Label>
           <Input
             className="regField"
             id="registration-username-input"
             name="username"
-            placeholder="Choose Username"
+            placeholder="e.g. langMaster2001"
             required
           />
         </div>
-        <div>
+        <div className="enterPass">
+          <Label htmlFor="registration-password-input">
+            Choose a password
+            <Required />
+          </Label>
           <Input
             className="regField"
             id="registration-password-input"
             name="password"
             type="password"
-            placeholder="Choose Password"
             required
           />
         </div>

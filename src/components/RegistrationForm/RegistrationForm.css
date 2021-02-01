@@ -16,13 +16,37 @@
   margin: auto;
   margin-top: 15px;
   width: 70px;
+  cursor: pointer;
 }
 
 .loginLink {
   margin: 20px 0px;
-  color: red;
+  color: rgb(195, 0, 255);
 }
 
 .loginLink:hover {
   color: rgb(100, 0, 0);
+}
+
+.enterName {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.enterUsername {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  width: 200px;
+}
+
+.enterPass {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  width: 200px;
 }

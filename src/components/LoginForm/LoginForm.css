@@ -4,4 +4,21 @@
 
 .loginBtn {
   margin-top: 10px;
+  cursor: pointer;
+}
+
+.loginUsername {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  width: 200px;
+}
+
+.loginPassword {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  width: 200px;
 }
