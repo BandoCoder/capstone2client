@@ -11,11 +11,23 @@ const LangApiService = {
       !res.ok ? res.json().then((e) => Promise.reject(e)) : res.json()
     );
   },
-  getFirstWord() {
+  getNextWord() {
     return fetch(`${config.API_ENDPOINT}/language/head`, {
       headers: {
         authorization: `bearer ${TokenService.getAuthToken()}`,
       },
+    }).then((res) =>
+      !res.ok ? res.json().then((e) => Promise.reject(e)) : res.json()
+    );
+  },
+  postAnswer(answer) {
+    return fetch(`${config.API_ENDPOINT}/language/guess`, {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+        authorization: `bearer ${TokenService.getAuthToken()}`,
+      },
+      body: JSON.stringify(answer),
     }).then((res) =>
       !res.ok ? res.json().then((e) => Promise.reject(e)) : res.json()
     );
