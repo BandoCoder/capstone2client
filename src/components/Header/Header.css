@@ -26,7 +26,7 @@ hr {
 .navLink {
   text-decoration: none;
   color: whitesmoke;
-  background-color: rgba(20, 20, 20, 0.719);
+  background-color: rgba(20, 20, 20, 0.87);
   padding: 10px;
   border-radius: 5px;
 }
@@ -38,7 +38,7 @@ hr {
 .userSpan {
   margin-right: 60px;
   color: whitesmoke;
-  background-color: rgba(20, 20, 20, 0.719);
+  background-color: rgba(20, 20, 20, 0.87);
   padding: 10px;
   border-radius: 5px;
 }

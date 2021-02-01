@@ -1,13 +1,15 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
+import LearningPage1 from "../../components/LearningPage/LearningPage1";
+import "./LearningRoute.css";
 
 class LearningRoute extends Component {
   render() {
     return (
-      <section>
-        implement and style me
+      <section className="learnPage">
+        <LearningPage1 />
       </section>
     );
   }
 }
 
-export default LearningRoute
+export default LearningRoute;
