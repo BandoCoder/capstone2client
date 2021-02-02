@@ -46,7 +46,7 @@ class Header extends Component {
       <header>
         <h1>
           <Link className="headLink" to="/">
-            Spaced repetition
+            Langellium
           </Link>
         </h1>
         <div className="navBar">

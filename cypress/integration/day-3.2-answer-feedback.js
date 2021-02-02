@@ -123,7 +123,8 @@ describe(`User story: Answer feedback`, function () {
           .fixture("language-guess-correct.json")
           .then((fx) => fixtures.push(fx)),
       ]).then(() => {
-        const [incorrectFixture] = fixtures;
+        // eslint-disable-next-line no-unused-vars
+        const [languageHeadFixture, incorrectFixture] = fixtures;
 
         cy.get("main").within(($main) => {
           cy.get(".DisplayScore p").should(
